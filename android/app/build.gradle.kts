@@ -15,7 +15,11 @@ android {
         versionCode = 1
         versionName = "0.1.0-build1-2"
     }
+compileOptions {
 
+    sourceCompatibility = JavaVersion.VERSION_17
+
+    targetCompatibility = JavaVersion.VERSION_17
     buildFeatures { compose = true }
 
     kotlinOptions { jvmTarget = "17" }
